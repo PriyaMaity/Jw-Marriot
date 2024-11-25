@@ -348,3 +348,20 @@
     padding: 1.3rem;
     color: whitesmoke;
   }
+
+  
+.footer-links {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 0.7rem; /* Adds spacing between the items */
+  font-size: 0.7rem; /* Adjust the size as per your design */
+  color: whitesmoke; /* Text color */
+}
+
+.footer-links span {
+  cursor: pointer; /* Makes the items look clickable */
+}
+
+.footer-links span:hover {
+  text-decoration: underline; /* Adds an underline effect on hover */
+}
