@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header-black{
+    z-index: 100;
+    width: 100%;
+    height: 0.3rem;
+    background-color: #231c19;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 0;
+  }
+  .home-section{
+    position: relative;
+  }
+  .navbar{
+    height: 17vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+  }
+  .navbar .left-navbar img{
+    margin-left: -10px;
+    height: 11.7rem;
+    width: 15.3rem;
+    padding-left: 5rem;
+  }
+  .navbar .right-navbar-top{
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    margin-top: 2rem;
+    margin-left: 34rem;
+    font-size: 1rem;
+  }
+  
+  .navbar .right-navbar-bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    width: 70rem;
+    margin-left: 1.8rem;
+    margin-top: 1.6rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .navbar .right-navbar-bottom a, .right-navbar-top a{
+    text-decoration: none;
+    color: #231c19;
+  }
+  .navbar .right-navbar-bottom p:hover{
+    text-decoration: underline;
+    color: #231c19;
+    text-underline-offset: 0.4rem;
+  }
+
+
+  
+  .hero-section {
+    background-image: url('findpic/background1.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+  }
+  
+  /* form */
+  .form-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 720px;
+    height: 300px;
+    position: absolute;
+    top: 100%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    grid-column: span 1;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
+  form select,
+  form input {
+    margin-bottom: 10px;
+  }
+  
+  form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  input::placeholder {
+    color: #999;
+  }
+  
+  form .checkbox-wrapper {
+    grid-column: span 2;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  form .checkbox-wrapper label {
+    font-size: 14px;
+  }
+  
+  .destinations-container {
+    background-color: #ffffff;
+    max-width: 100%;
+    padding: 30px;
+    margin-top: 20%;
+    margin-left: 20%;
+    text-align: left;
+  }
+  
+  .destinations-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .destinations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: left;
+  }
+  
+  .destinations-grid p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .destinations-grid p span {
+    font-size: 16px;
+    transition: transform 0.2s ease;
+  }
+  
+  .destinations-grid p:hover span {
+    transform: translateX(5px);
+  }
+  
+  .destinations-grid p:hover {
+    color: #007BFF;
+  }
+  
+  /* Responsive Design */
+  
+  /* For smaller devices (phones) */
+  @media (max-width: 600px) {
+    .hero-section {
+      height: 40vh;
+    }
+  
+    .form-container {
+      width: 90%;
+      height: auto;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    form {
+      grid-template-columns: 1fr;
+    }
+  
+    .destinations-container {
+      margin-left: 5%;
+      margin-top: 30%;
+      padding: 20px;
+    }
+  
+    .destinations-container h2 {
+      font-size: 20px;
+    }
+  
+    .destinations-grid {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+  
+    .destinations-grid p {
+      font-size: 14px;
+    }
+  }
+  
+  /* For medium devices (tablets) */
+  @media (max-width: 768px) {
+    .hero-section {
+      height: 45vh;
+    }
+  
+    .form-container {
+      width: 80%;
+      height: auto;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    form {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .destinations-container {
+      margin-left: 10%;
+      margin-top: 25%;
+    }
+  
+    .destinations-container h2 {
+      font-size: 22px;
+    }
+  
+    .destinations-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .destinations-grid p {
+      font-size: 15px;
+    }
+  }
+  
+  /* For large devices (desktops) */
+  @media (min-width: 1024px) {
+    .hero-section {
+      height: 50vh;
+    }
+  
+    .form-container {
+      width: 720px;
+      height: 300px;
+    }
+  
+    form {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .destinations-container {
+      margin-left: 20%;
+      margin-top: 20%;
+    }
+  
+    .destinations-container h2 {
+      font-size: 24px;
+    }
+  
+    .destinations-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  
+    .destinations-grid p {
+      font-size: 16px;
+    }
+  }
+  
+  .footer{
+    background-color: rgb(245, 245, 245);
+    width: 100vw;
+  }
+  .about-2{
+    background-color: #1c1c1c;
+    padding: 1rem 6rem;
+  }
+  
+  .top-destinations{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 2rem;
+    color: white;
+  }
+  .follow{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+  }
+  .follow-marriott{
+    padding-right: 3rem;
+  }
+  .social-sites{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+  .copyrights{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    padding: 1.3rem;
+    color: lightgray;
+  }
+  .copyrights .english{
+    align-items: center;
+  }
+  .last-line{
+    font-size: 0.9rem;
+    padding: 1.3rem;
+    color: whitesmoke;
+  }
