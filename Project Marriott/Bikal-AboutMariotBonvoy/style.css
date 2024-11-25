@@ -463,6 +463,71 @@
   
 }
 
+.brands{
+  max-width:77vw;
+  margin-left:8.5rem;
+  padding: 2rem 1rem;
+  margin-top: 2.5rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.joining-member{
+  background-image: url(pics/pdt-GettyImages-522935821-756816936548092.webp);
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+/* .intro {
+
+  color: white;
+  font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-size: medium;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+
+  width: 30%;
+  /* background-color: rgba(0,0,0,0.7); */
+}
+
+
+.intro p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+
+}
+
+.butt {
+  margin-top: 5%;
+
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.join {
+  background-color: white;
+  border: 1px solid white;
+}
+
+.sign {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+} */
 
 .footer{
     background-color: rgb(245, 245, 245);
