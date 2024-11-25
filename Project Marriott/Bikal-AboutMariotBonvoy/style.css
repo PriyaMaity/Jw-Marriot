@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-black{
+    z-index: 100;
+    width: 100%;
+    height: 0.3rem;
+    background-color: #231c19;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 0;
+  }
+  .home-section{
+    position: relative;
+  }
+  .navbar{
+    height: 14vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+  }
+  .navbar .left-navbar img{
+    margin-left: -10px;
+    height: 11.7rem;
+    width: 15.3rem;
+    padding-left: 5rem;
+  }
+  .navbar .right-navbar-top{
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    margin-top: 2rem;
+    margin-left: 34rem;
+    font-size: 1rem;
+  }
+  
+  .navbar .right-navbar-bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    width: 70rem;
+    margin-left: 1.8rem;
+    margin-top: 1.6rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .navbar .right-navbar-bottom a, .right-navbar-top a{
+    text-decoration: none;
+    color: #231c19;
+  }
+  .navbar .right-navbar-bottom p:hover{
+    text-decoration: underline;
+    color: #231c19;
+    text-underline-offset: 0.4rem;
+  }
+
+.navbr {
+    list-style-type: none;
+    display: flex;
+    padding: 15px 20px;
+    text-align: center;
+    gap: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10%;
+
+
+
+}
+
+.navbr a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbr a:hover {
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-thickness: 3px;
+}
+
+.bgimg {
+    background-image: url(pics/mlewh-overwater-escape-1799-hor-pano.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    
+
+
+
+}
+
+
+
+.shadow {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+
+    width: 50%;
+    height: 100%;
+    border: none;
+}
+
+.intro {
+
+    color: white;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-size: medium;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+    width: 30%;
+    /* background-color: rgba(0,0,0,0.7); */
+}
+
+
+.intro p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+
+}
+
+.butt {
+    margin-top: 5%;
+
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.join {
+    background-color: white;
+    border: 1px solid white;
+}
+
+.sign {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+
+/* .searchbar {
+    border: 2px solid black;
+    width: 70%;
+    margin: 0 10%;
+    border-radius: 20px;
+    padding:0.4rem;
+}
+
+.divider {
+    height: 60px;
+    width: 0px;
+   
+    border: 2px dotted grey;
+    margin: 10px 10px;
+  
+    
+    
+}
+
+.input-container {
+    display: flex;
+   align-items: center;
+}
+
+.input-sec{
+    margin-left: 2rem;
+}
+
+.hotel{
+    margin-left: 30%;
+    padding:0.9rem;
+    border-radius: 25px;
+    width: 12rem;
+    background-color: black;
+    color: white;
+} */
+
+.search-container{
+    display: flex;
+    align-items: center;
+    height: 13vh;
+    width: 77vw;
+    margin-left:8.5rem;
+   /* position:relative;
+   margin-top: -50px;
+   z-index: 1; */
+    border-radius: 1.5rem;
+    
+    padding: 1rem 2rem;
+    border: 2px solid black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+   
+   
+   
+}
+
+.search-item {
+   
+    margin-right: 1.1rem;
+    padding-right: 2rem;
+  }
+
+  .search-item:first-child {
+    border-right: 2px dotted #c3c0c0;
+    margin-right: 50px;
+  }
+  .search-details #date::placeholder{
+    color: #231c19;
+  }
+
+  .bold input::placeholder{
+    color: black;
+    font-weight: bold;
+  }
+  .search-item-logo{
+    margin-bottom: 0.2rem;
+  }
+
+  .search-item-logo i{
+   
+    margin-right:0.5rem;
+  }
+
+  input {
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    color: #333;
+    width: 20rem;
+  }
+
+  .search-btn {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border: none;
+    padding: 1rem 6.5rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 700;
+ 
+  }
+
+  .offer-container{
+    display: flex;
+    /* border: 2px solid black; */
+    height: 13vh;
+    width: 77vw;
+    margin-left:8.5rem;
+    border-radius: 1.5rem;
+    margin-top: 2.5rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+  }
+
+  .card-img{
+    height: 60px;
+    width: 100px;
+  }
+  .card-img img{
+    height: inherit;
+    width: inherit;
+  }
+
+  .offer-details{
+    margin-left: 4.5rem;
+    margin-right: 30rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  .offer-details h3 {
+    margin-bottom: 0.5rem; 
+}
+
+  .apply-btn{
+    height: 5vh;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+.member-benefits{
+    max-width:77vw;
+    margin-left:8.5rem;
+    padding: 2rem 1rem;
+    margin-top: 2.5rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.member-para{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.membership-list{
+    color: gray;
+   
+}
+.line{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-thickness: 3px; 
+}
+  .membership{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+  }
+
+  .membership-details {
+    margin: 2rem 0;
+  }
+
+  .membership-details .icon {
+    font-size: 2.5rem;
+    color: #fc6e51;
+  }
+
+  .membership-details h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+
+  .membership-details .subheading {
+    color: #888;
+    font-size: 1rem;
+  }
+  
+  .membership-details .description {
+    color: #555;
+    font-size: 1rem;
+  }
+
+  .benefits {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+
+  .benefit-item {
+    max-width: 200px;
+   
+  }
+  .benefit-item .icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .benefit-item h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+
+  .benefits-button {
+    margin-top: 2rem;
+     background-color: white;
+    color:black;
+   
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+
+  .points{
+    
+    width:77vw;
+    margin-left:8.5rem; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .points h1{
+    margin-top:4rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-flex{
+    display: flex;
+   flex-wrap: wrap;
+    /* justify-content: space-around; */
+
+    
+   
+  }
+
+  .card{
+    display: flex;
+    border-radius: 1.2rem;
+    width: 35vw;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .card-icon{
+    /* border: 1px solid red; */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding:0.5rem 2rem;
+    font-size:30px;
+    background-color:lightsalmon;
+    border-top-left-radius:1.2rem;
+    border-bottom-left-radius:1.2rem;
+  }
+
+  .card-details{
+    padding: 1.7rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+  }
+
+  .arrow {
+    font-size:2.5rem;
+    color: #333;
+    margin-top: 35px;
+   
+  }
+.heading{
+    display: flex;
+    
+}
+
+.explore-btn{
+    height: 5vh;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top:4.1rem;
+    padding: 0 1.3rem;
+    margin-left:55%;
+  
+}
+
+
+.footer{
+    background-color: rgb(245, 245, 245);
+    height: 100vh;
+    width: 100vw;
+  }
+  .about-2{
+    background-color: #1c1c1c;
+    padding: 1rem 6rem;
+  }
+  
+  .top-destinations{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 2rem;
+    color: white;
+  }
+  .follow{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+  }
+  .follow-marriott{
+    padding-right: 3rem;
+  }
+  .social-sites{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+  .copyrights{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    padding: 1.3rem;
+    color: lightgray;
+  }
+  .copyrights .english{
+    align-items: center;
+  }
+  .last-line{
+    font-size: 0.9rem;
+    padding: 1.3rem;
+    color: whitesmoke;
+  }
