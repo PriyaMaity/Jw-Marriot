@@ -16,6 +16,7 @@
 .home-section {
   position: relative;
 }
+
 .navbar {
   height: 17vh;
   width: 100vw;
@@ -63,14 +64,14 @@
 .hero {
   position: relative;
   width: 100%;
-  height: 80vh; /* Full height of the viewport */
+  height: 80vh;
   overflow: hidden;
 }
 
 .background-image {
   width: 100%;
   height: 70vh;
-  object-fit: cover; /* Ensures the image covers the entire area */
+  object-fit: cover;
 }
 
 .main-container {
@@ -84,11 +85,11 @@
   left: 10%;
   transform: translateY(-50%);
   color: white;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a shadow for better readability */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .hero-text h1 {
-  font-size: 0.7rem;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -105,9 +106,8 @@
   line-height: 1.5;
 }
 
-/* Section Titles */
 section {
-  margin-top: 0%;
+  margin-top: 0;
   margin-bottom: 10px;
   text-align: left;
 }
@@ -128,7 +128,6 @@ section p {
   left: 10px;
   color: white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-  /* background: rgba(0, 0, 0, 0.5); */
   padding: 5px;
   border-radius: 5px;
 }
@@ -137,6 +136,7 @@ section p {
   display: flex;
   gap: 15px;
   justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
 .grid-item {
@@ -160,12 +160,11 @@ section p {
   left: 10px;
   color: white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-  /* background: rgba(0, 0, 0, 0.5); */
   padding: 5px;
   border-radius: 5px;
 }
 
-/* Container for the membership card */
+/* Membership Card */
 .membership-card {
   display: flex;
   align-items: center;
@@ -178,33 +177,28 @@ section p {
   margin-left: 300px;
 }
 
-/* Image Section */
 .image-section img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
 
-/* Ensures the image takes half of the container */
 .image-section {
   flex: 1;
 }
 
-/* Content Section */
 .content-section {
   flex: 1;
   padding: 20px;
   text-align: left;
 }
 
-/* Styling for heading */
 .content-section h2 {
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-/* Styling for paragraph */
 .content-section p {
   font-size: 1rem;
   color: #666;
@@ -212,7 +206,6 @@ section p {
   line-height: 1.5;
 }
 
-/* Button styling */
 .content-section button {
   background-color: #000;
   color: #fff;
@@ -256,10 +249,10 @@ section p {
   left: 10px;
   color: white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-  /* background: rgba(0, 0, 0, 0.5); */
   padding: 5px;
   border-radius: 5px;
 }
+
 /* .bonvoy-banner */
 .bonvoy-banner {
   display: flex;
@@ -314,9 +307,11 @@ section p {
   background: #444;
 }
 
-/* Marriot */
 
-/* Explore the world */
+
+
+
+/* Marriot */
 .MARRIOTT .grid {
   display: flex;
   gap: 15px;
@@ -344,7 +339,6 @@ section p {
   left: 10px;
   color: white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-  /* background: rgba(0, 0, 0, 0.5); */
   padding: 5px;
   border-radius: 5px;
 }
@@ -378,11 +372,11 @@ summary {
 }
 
 summary::-webkit-details-marker {
-  display: none; /* Hides default marker (arrow) */
+  display: none;
 }
 
 details[open] summary {
-  color: #000; /* Optional styling for open state */
+  color: #000;
 }
 
 summary::after {
@@ -393,7 +387,7 @@ summary::after {
 
 details[open] summary::after {
   content: "▲";
-  transform: rotate(180deg); /* Upward arrow for open state */
+  transform: rotate(180deg);
 }
 
 details p {
@@ -402,67 +396,220 @@ details p {
   color: #333;
   line-height: 1.5;
 }
-.footer{
+
+.footer {
   background-color: rgb(245, 245, 245);
-  /* height: 100vh; */
   width: 100vw;
 }
-.about-2{
+
+.about-2 {
   background-color: #1c1c1c;
-  padding: 1rem 6rem;
+  padding: 0.52vw 3.13vw; /* 1rem and 6rem to vw */
 }
 
-.top-destinations{
-  font-size: 1.5rem;
+.top-destinations {
+  font-size: 1.5vw; /* 1.5rem to vw */
   font-weight: 500;
-  padding: 2rem;
+  padding: 1.04vw; /* 2rem to vw */
   color: white;
 }
-.follow{
-  font-size: 1.5rem;
+
+.follow {
+  font-size: 1.5vw; /* 1.5rem to vw */
   font-weight: 500;
-  padding: 2rem;
+  padding: 1.04vw; /* 2rem to vw */
   color: white;
   display: flex;
   flex-direction: row;
 }
-.follow-marriott{
-  padding-right: 3rem;
+
+.follow-marriott {
+  padding-right: 1.56vw; /* 3rem to vw */
 }
-.social-sites{
+
+.social-sites {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 1.5rem;
+  gap: 0.78vw; /* 1.5rem to vw */
 }
-.copyrights{
+
+.copyrights {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: 0.8rem;
-  padding: 1.3rem;
+  font-size: 0.70vw; /* 0.8rem to vw */
+  padding: 0.68vw; /* 1.3rem to vw */
   color: lightgray;
 }
-.copyrights .english{
+
+.copyrights .english {
   align-items: center;
 }
-.last-line{
-  font-size: 0.9rem;
-  padding: 1.3rem;
+
+.last-line {
+  font-size: 0.70vw; /* 0.9rem to vw */
+  padding: 0.68vw; /* 1.3rem to vw */
   color: whitesmoke;
 }
+
 .footer-links {
   display: flex;
-  /* flex-direction: column; */
-  gap: 0.7rem; /* Adds spacing between the items */
-  font-size: 0.7rem; /* Adjust the size as per your design */
-  color: whitesmoke; /* Text color */
+  gap: 0.36vw; /* 0.7rem to vw */
+  font-size: 0.7vw; /* 0.7rem to vw */
+  color: whitesmoke;
 }
 
 .footer-links span {
-  cursor: pointer; /* Makes the items look clickable */
+  cursor: pointer;
 }
 
 .footer-links span:hover {
-  text-decoration: underline; /* Adds an underline effect on hover */
+  text-decoration: underline;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+  .navbar .left-navbar img {
+    width: 30%;
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+  .navbar .right-navbar-top,
+  .navbar .right-navbar-bottom {
+    margin-left: 0;
+    font-size: 0.8rem;
+  }
+  .hero-section {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    align-items: flex-start;
+  }
+  .navbar .left-navbar img {
+    width: 50%;
+  }
+  .navbar .right-navbar-top,
+  .navbar .right-navbar-bottom {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Media Queries */
+
+/* For Mobile Devices */
+@media (max-width: 600px) {
+  .hero-text {
+    left: 5%;
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  .hero-text h1 {
+    font-size: 1.2rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .hero-text p {
+    font-size: 1.2rem;
+    max-width: 100%;
+  }
+
+  .grid-item {
+    max-width: 100%; /* Stack items */
+  }
+
+  .membership-card {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .image-section img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .content-section {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .content-section button {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .faq-container {
+    margin-top: 2rem;
+  }
+}
+
+/* For Tablet Devices */
+@media (max-width: 768px) {
+  .hero-text {
+    left: 5%;
+    font-size: 1.2rem;
+  }
+
+  .hero-text h1 {
+    font-size: 1.4rem;
+  }
+
+  .hero-text h2 {
+    font-size: 2rem;
+  }
+
+  .grid-item {
+    max-width: 45%; /* Two items per row */
+  }
+
+  .membership-card {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .image-section img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .content-section {
+    text-align: center;
+  }
+
+  .content-section button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+/* For Larger Devices (Desktop and Above) */
+@media (min-width: 1024px) {
+  .grid-item {
+    max-width: 33%; /* Three items per row */
+  }
+
+  .membership-card {
+    margin-left: 300px;
+  }
+
+  .content-section button {
+    font-size: 1.1rem;
+  }
 }

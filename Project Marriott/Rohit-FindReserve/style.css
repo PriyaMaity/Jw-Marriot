@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-black {
+  z-index: 100;
+  width: 100%;
+  height: 0.3rem;
+  background-color: #231c19;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-bottom: 0;
+}
+.home-section {
+  position: relative;
+}
+.navbar {
+  height: 17vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+}
+.navbar .left-navbar img {
+  margin-left: -10px;
+  height: 11.7rem;
+  width: 15.3rem;
+  padding-left: 5rem;
+}
+.navbar .right-navbar-top {
+  display: flex;
+  justify-content: center;
+  gap: 1.6rem;
+  margin-top: 2rem;
+  margin-left: 34rem;
+  font-size: 1rem;
+}
+
+.navbar .right-navbar-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  width: 70rem;
+  margin-left: 1.8rem;
+  margin-top: 1.6rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.navbar .right-navbar-bottom a,
+.right-navbar-top a {
+  text-decoration: none;
+  color: #231c19;
+}
+.navbar .right-navbar-bottom p:hover {
+  text-decoration: underline;
+  color: #231c19;
+  text-underline-offset: 0.4rem;
+}
+
+.hero-section {
+  background-image: url("findpic/background1.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 26.04vw; /* 50vh scaled for viewport width */
+  position: relative;
+}
+
+/* Form */
+.form-container {
+  background-color: white;
+  border-radius: 0.42vw; /* 8px to vw */
+  padding: 1.04vw; /* 20px to vw */
+  width: 37.5vw; /* 720px to vw */
+  /* height: 15.63vw; 300px to vw */
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0.21vw 0.31vw rgba(0, 0, 0, 0.2); /* 4px and 6px to vw */
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.52vw; /* 10px to vw */
+  max-width: 31.25vw; /* 600px to vw */
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  padding: 0.52vw; /* 10px to vw */
+  font-size: 0.73vw; /* 14px to vw */
+  border: 0.05vw solid #ccc; /* 1px to vw */
+  border-radius: 0.26vw; /* 5px to vw */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  grid-column: span 1;
+  background-color: black;
+  color: white;
+  font-size: 0.73vw; /* 14px to vw */
+  padding: 0.52vw; /* 10px to vw */
+  border: 0.05vw solid #ccc; /* 1px to vw */
+  border-radius: 0.26vw; /* 5px to vw */
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+form select,
+form input {
+  margin-bottom: 0.52vw; /* 10px to vw */
+}
+
+form label {
+  font-size: 0.73vw; /* 14px to vw */
+  margin-bottom: 0.26vw; /* 5px to vw */
+}
+
+input::placeholder {
+  color: #999;
+}
+
+form .checkbox-wrapper {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  gap: 0.26vw; /* 5px to vw */
+}
+
+form .checkbox-wrapper label {
+  font-size: 0.73vw; /* 14px to vw */
+}
+
+.destinations-container {
+  background-color: #ffffff;
+  max-width: 100%;
+  padding: 1.56vw; /* 30px to vw */
+  margin-top: 10.42vw; /* 20% of typical viewport width */
+  margin-left: 10.42vw; /* 20% */
+  text-align: left;
+}
+
+.destinations-container h2 {
+  font-size: 1.25vw; /* 24px to vw */
+  font-weight: bold;
+  margin-bottom: 1.04vw; /* 20px to vw */
+  text-align: left;
+}
+
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10.42vw, 1fr)); /* 200px to vw */
+  gap: 1.04vw; /* 20px to vw */
+  text-align: left;
+}
+
+.destinations-grid p {
+  font-size: 0.83vw; /* 16px to vw */
+  line-height: 1.5;
+  margin: 0.26vw 0; /* 5px to vw */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.destinations-grid p span {
+  font-size: 0.83vw; /* 16px to vw */
+  transition: transform 0.2s ease;
+}
+
+.destinations-grid p:hover span {
+  transform: translateX(0.26vw); /* 5px to vw */
+}
+
+.destinations-grid p:hover {
+  color: #007bff;
+}
+
+.footer {
+  background-color: rgb(245, 245, 245);
+  width: 100vw;
+}
+
+.about-2 {
+  background-color: #1c1c1c;
+  padding: 0.52vw 3.13vw; /* 1rem and 6rem to vw */
+}
+
+.top-destinations {
+  font-size: 1.5vw; /* 1.5rem to vw */
+  font-weight: 500;
+  padding: 1.04vw; /* 2rem to vw */
+  color: white;
+}
+
+.follow {
+  font-size: 1.5vw; /* 1.5rem to vw */
+  font-weight: 500;
+  padding: 1.04vw; /* 2rem to vw */
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.follow-marriott {
+  padding-right: 1.56vw; /* 3rem to vw */
+}
+
+.social-sites {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.78vw; /* 1.5rem to vw */
+}
+
+.copyrights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.70vw; /* 0.8rem to vw */
+  padding: 0.68vw; /* 1.3rem to vw */
+  color: lightgray;
+}
+
+.copyrights .english {
+  align-items: center;
+}
+
+.last-line {
+  font-size: 0.70vw; /* 0.9rem to vw */
+  padding: 0.68vw; /* 1.3rem to vw */
+  color: whitesmoke;
+}
+
+.footer-links {
+  display: flex;
+  gap: 0.36vw; /* 0.7rem to vw */
+  font-size: 0.7vw; /* 0.7rem to vw */
+  color: whitesmoke;
+}
+
+.footer-links span {
+  cursor: pointer;
+}
+
+.footer-links span:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+  .navbar .left-navbar img {
+    width: 30%;
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+  .navbar .right-navbar-top,
+  .navbar .right-navbar-bottom {
+    margin-left: 0;
+    font-size: 0.8rem;
+  }
+  .hero-section {
+    height: 40vh;
+  }
+  .form-container {
+    width: 95%;
+    padding: 15px;
+  }
+  form {
+    grid-template-columns: 1fr; /* Single-column layout */
+  }
+  button {
+    grid-column: span 1;
+  }
+  .destinations-container {
+    margin: 2%;
+    padding: 15px;
+  }
+  .destinations-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    align-items: flex-start;
+  }
+  .navbar .left-navbar img {
+    width: 50%;
+  }
+  .navbar .right-navbar-top,
+  .navbar .right-navbar-bottom {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .form-container {
+    padding: 10px;
+    top: 50%;
+  }
+  form {
+    grid-template-columns: 1fr;
+  }
+  button {
+    padding: 10px;
+  }
+  .destinations-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
