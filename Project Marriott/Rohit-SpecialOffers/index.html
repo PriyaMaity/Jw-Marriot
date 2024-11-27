@@ -6,6 +6,33 @@
     <title>Document</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <style>
+      @keyframes zoomIn {
+        0% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      
+      @keyframes fadeInText {
+        0% {
+          opacity: 0;
+          transform: translate(-50%, -60%);
+        }
+      }
+      .grid-item:hover img {
+        transform: scale(0.9);
+      }
+       .grid-item:hover .overlay {
+      opacity: 1;
+      }
+      .membership-card:hover img {
+        transform: scale(0.9);
+      }
+      </style>
+      
   </head>
   <body>
     <div class="home-section">
@@ -31,13 +58,13 @@
             
             </div>
             <div class="right-navbar-bottom">
-              <p><a href="">Find & Reserve</a></p>
-              <p><a href="">Special Offers</a></p>
-              <p><a href="">Vacations</a></p>
-              <p><a href="">Our Brands</a></p>
-              <p><a href="">Our Credit Cards</a></p>
-              <p><a href="">About Marriott Bonvoy</a></p>
-              <p><a href="">Meetings & Events</a></p>
+              <p><a href="/Project Marriott/Rohit-FindReserve/index.html">Find & Reserve</a></p>
+              <p><a href="/Project Marriott/Rohit-SpecialOffers/index.html">Special Offers</a></p>
+              <p><a href="/Project Marriott/Aniket-Vacations/index.html">Vacations</a></p>
+              <p><a href="/Project Marriott/Priya-OurBrands/index.html">Our Brands</a></p>
+              <p><a href="/Project Marriott/Aniket OurCreditCards/index.html">Our Credit Cards</a></p>
+              <p><a href="/Project Marriott/Bikal-AboutMariotBonvoy/index.html">About Marriott Bonvoy</a></p>
+              <p><a href="/Project Marriott/Pratik-Meetings&Events/index.html">Meetings & Events</a></p>
             </div>
         </div>
       </nav>
@@ -45,23 +72,27 @@
 
     <!-- main section -->
     <main>
-      <section class="hero">
+      <section class="hero" style="position: relative; height: 100vh; overflow: hidden;">
+        <!-- Background Image with Animation -->
         <img
           src="findpic/special/homepage1.jpg"
           alt="Scenic View"
           class="background-image"
-        />
-        <div class="hero-text">
+          style="animation: zoomIn 5s ease-in-out;"/>
+      
+        <!-- Hero Text with Animation -->
+        <div
+          class="hero-text"
+          style="animation: fadeInText 3s ease-in-out;"
+        >
           <h1>MARRIOTT BONVOY</h1>
           <h2>OFFERS</h2>
-          <p style="color: white;">
+          <p style="font-size: 1.2rem; color: white;">
             Begin Your Adventure:<br />
             Exclusive Deals Await
           </p>
         </div>
       </section>
-
-    
       <div class="main-container">
           <!-- New Section: Member Exclusive Offers -->
           <section class="popular-offers">
