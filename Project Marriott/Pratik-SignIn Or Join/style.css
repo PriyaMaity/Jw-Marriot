@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, Arial, sans-serif;
+}
+.header-black {
+  z-index: 100;
+  width: 100%;
+  height: 0.3rem;
+  background-color: #231c19;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-bottom: 0;
+}
+.home-section {
+  position: relative;
+}
+.navbar {
+  height: 17vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+}
+.navbar .left-navbar img {
+  margin-left: -10px;
+  height: 11.7rem;
+  width: 15.3rem;
+  padding-left: 5rem;
+}
+.navbar .right-navbar-top {
+  display: flex;
+  justify-content: center;
+  gap: 1.6rem;
+  margin-top: 2rem;
+  margin-left: 34rem;
+  font-size: 1rem;
+}
+
+.navbar .right-navbar-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  width: 70rem;
+  margin-left: 1.8rem;
+  margin-top: 1.6rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.navbar .right-navbar-bottom a,
+.right-navbar-top a {
+  text-decoration: none;
+  color: #231c19;
+}
+.navbar .right-navbar-bottom p:hover {
+  text-decoration: underline;
+  color: #231c19;
+  text-underline-offset: 0.4rem;
+}
+
+.sub-nav {
+  width: 100%;
+}
+
+.sub-nav img {
+  object-fit: cover;
+  height: 30vh;
+  width: 100%;
+}
+
+.join-section {
+  width: 100%;
+  height: 130vh;
+  
+}
+
+.join-container {
+  width: 60%;
+  height: 130vh;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 20px 0px;
+}
+
+.text-container {
+  text-align: center;
+  margin: 2.5rem 0;
+  width: 80%;
+}
+
+.text-container span {
+  font-size: 2.5rem;
+}
+
+.text-container p {
+  margin: 1rem 2rem;
+  font-size: 1.3rem;
+}
+
+.logo-container {
+  width: 80%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  font-style: bold;
+  border-bottom: 1px solid #9b9a9a;
+  padding-bottom: 2rem;
+}
+
+.logo-container i {
+  padding-right: 1rem;
+}
+
+.activate-account {
+  width: 60%;
+  display: flex;
+  margin: 3rem 8em;
+  align-self: flex-start;
+  font-size: 1.1rem;
+}
+
+.activate-account a {
+  color: black;
+}
+
+.input-container{
+    display: flex;
+    width: 50%;
+}
+
+.input-wrapper {
+  position: relative;
+  margin: 0.8rem 0;
+}
+
+form input, select {
+  border: 1px solid rgb(133, 132, 132);
+  border-radius: 6px;
+  position: relative;
+  width: 27em;
+  height: 3em;
+  margin: 10px;
+  line-height: 6ex;
+  padding-left: 1rem;
+  font-size: 1em;
+}
+
+form label:not(.check-label){
+    position: absolute;
+    top: 0.2ex;
+    z-index: 1;
+    left: 2em;
+    padding: 0 5px;
+    color: #707070;
+    background-color: white;
+    font-size: 0.8rem;
+}
+
+select{
+    color: #707070;
+}
+
+.email input{
+    width: 55rem;
+}
+
+.password-instructions{
+    margin-left: 2rem;
+    font-size: 0.7rem;
+    color: #464545;
+}
+
+.remember-me{
+    margin-top: 1.5rem;
+}
+
+
+input[type="checkbox"] {
+    width: 2rem;
+    height: 1.2rem;
+    margin-right: 1rem;
+    accent-color: black;
+}
+
+.check-label{
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.email-me{
+    font-size: 0.8rem;
+    text-wrap: wrap;
+}
+
+.terms-conditions{
+    width: 80%;
+    margin: 4rem 0;
+    font-size: 1.1rem;
+    letter-spacing: 0.1ch;
+    line-height: 2ch;
+    font-weight: 100;
+}
+
+.join-button{
+  left: 10%;
+  position: absolute;
+  top: 93%;
+}
+
+button{
+  width: 7rem;
+  height: 2rem;
+  border-radius: 24px;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  font-style: bold;
+  margin-right: 2rem;
+}
+
+button:hover {
+  background-color: #666;
+  border: none;
+}
+
+.join-button a{
+  color: #707070;
+  font-size: 0.8rem;
+}
+
+.get-app-container{
+  width: 100%;
+  height: 15vh;
+  background-color: black;
+}
+
+.get-app{
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+
+.get-app p{
+  width: 15%;
+  font-size: 0.8rem;
+}
+
+.get-app img,p{
+  margin-right: 1rem;
+}
+
+.footer{
+  background-color: rgb(245, 245, 245);
+  width: 100vw;
+}
+.about-2{
+  background-color: #1c1c1c;
+  padding: 1rem 6rem;
+}
+
+.top-destinations{
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 2rem;
+  color: white;
+}
+.follow{
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.follow-marriott{
+  padding-right: 3rem;
+}
+.social-sites{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.copyrights{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  padding: 1.3rem;
+  color: lightgray;
+}
+.copyrights .english{
+  align-items: center;
+}
+.last-line{
+  font-size: 0.9rem;
+  padding: 1.3rem;
+  color: whitesmoke;
+}
