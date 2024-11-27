@@ -9,8 +9,8 @@ body{
 }
 .footer{
   background-color: rgb(245, 245, 245);
-  height: 100vh;
-  width: 100vw;
+  height: auto;
+  width: 100%;
 }
 .about-2{
   background-color: #1c1c1c;
@@ -45,7 +45,7 @@ body{
   flex-direction: row;
   justify-content: space-between;
   font-size: 0.8rem;
-  padding: 1.3rem;
+  padding: 1.2rem;
   color: lightgray;
 }
 .copyrights .english{
@@ -56,3 +56,67 @@ body{
   padding: 1.3rem;
   color: whitesmoke;
 }
+@media (max-width: 1024px){
+  .footer {
+    flex-direction: column;
+    height: auto;
+  }
+}
+@media (max-width: 768px){
+  .footer{
+    height: auto;
+    width: 100%;
+  }
+  .about-2{
+    padding: 1rem 5rem;
+  }
+  .top-destinations{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 1.5rem;
+    color: white;
+  }
+  .copyrights{
+    gap: 1.7rem;
+    padding: 1rem 0.5rem;
+  }
+  .copyrights .english{
+    display: inline-flex;
+  }
+  @media (max-width: 480px){
+    .about-2{
+      padding: 1rem 5rem;
+    }
+    .follow{
+      font-size: 1.2rem;
+      font-weight: 500;
+      padding: 1.5rem;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .follow-marriott{
+      padding-right: 2rem;
+    }
+    .social-sites{
+      gap: 1.3rem;
+    }
+    .copyrights{
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+    .last-line{
+      font-size: 0.9rem;
+      padding: 1.2rem;
+    }
+  }
+  @media (max-width: 320px){
+    .social-sites{
+      gap: 0.8rem;
+      flex-wrap: wrap;
+    }
+    .last-line{
+      font-size: 0.9rem;
+      padding: 1rem;
+    }
+  }
+} 

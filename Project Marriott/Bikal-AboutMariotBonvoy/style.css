@@ -670,7 +670,7 @@
 
 .footer{
     background-color: rgb(245, 245, 245);
-    height: 100vh;
+    height: auto;
     width: 100vw;
   }
   .about-2{
