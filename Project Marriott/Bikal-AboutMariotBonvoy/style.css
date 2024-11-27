@@ -85,9 +85,10 @@
 
 .bgimg {
     background-image: url(pics/mlewh-overwater-escape-1799-hor-pano.jpg);
-    height: 60vh;
+    height: 80vh;
     background-size: cover;
     background-position: center;
+    /* display: flex; */
     
 
 
@@ -111,11 +112,16 @@
     font-optical-sizing: auto;
     font-weight: 100;
     font-size: medium;
-    position: absolute;
-    top: 20%;
-    left: 10%;
-
-    width: 30%;
+    /* position: absolute; */
+    /* top: 20%;
+    left: 10%; */
+    padding-top: 7.6rem;
+    padding-left: 5.5rem;
+    width: 50%;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content:center;
     /* background-color: rgba(0,0,0,0.7); */
 }
 
@@ -123,11 +129,12 @@
 .intro p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
+    margin-top: 5%;
 
 }
 
 .butt {
-    margin-top: 5%;
+    margin-top: 8%;
 
 }
 
@@ -198,8 +205,11 @@
     border-radius: 1.5rem;
     
     padding: 1rem 2rem;
-    border: 2px solid black;
+   
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* position:absolute; */
+    margin-top: -2rem;
+    background-color: white;
    
    
    
@@ -473,42 +483,73 @@
   font-family: Arial, sans-serif;
 
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 7.5rem;
 }
 
+.logo-container{
+   display: flex; 
+   justify-content: space-around;
+   padding: 2rem;
+}
+.logoimg{
+  height:80px;
+  width: 150px;
+  
+
+}
+.logoimg img{
+  height: inherit;
+  width: inherit;
+}
 
 .joining-member{
   background-image: url(pics/pdt-GettyImages-522935821-756816936548092.webp);
-  height: 60vh;
+  height: 70vh;
   background-size: cover;
   background-position: center;
+  display: flex;
 
 }
 
 
-/* .intro {
+.intro-2 {
 
   color: white;
   font-family: "Funnel Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-size: medium;
-  position: absolute;
-  top: 20%;
-  left: 10%;
-
-  width: 30%;
+  /* position: absolute; */
+  /* top: 20%;
+  left: 10%; */
+  padding-top: 7.6rem;
+  padding-left: 5.5rem;
+  width: 40%;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  justify-content:center;
   /* background-color: rgba(0,0,0,0.7); */
 }
 
 
-.intro p {
+.intro-2 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
+  margin-top: 5%;
 
 }
 
-.butt {
-  margin-top: 5%;
+.shadow-2 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+
+  width: 80%;
+  height: 100%;
+  border: none;
+}
+
+.butt-2 {
+  margin-top:8%;
 
 }
 
@@ -527,7 +568,105 @@
   background-color: transparent;
   color: white;
   border: 1px solid white;
+} 
+
+.explore-benefits{
+
+  max-width:77vw;
+  margin-left:8.5rem;
+  padding: 2rem 1rem;
+  margin-top: 2.5rem;
+  /* border-radius: 1.5rem;
+  text-align: center; */
+  font-family: Arial, sans-serif;
+
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+  margin-bottom: 7.5rem;
+}
+
+.explore-card{
+  display: flex;
+  gap:1rem;
+  margin-top: 1.3rem;
+  
+}
+
+.card1{
+  border-radius: 7%;
+  background-image:url(pics/bonvoy-jeep-roadtrip-26171-square.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 350px;
+  height: 350px;
+  color: white;
+}
+/* .card1 img{
+  width: 350px;
+  height: 350px;
+  border-radius: inherit;
 } */
+
+.card1-details{
+  margin-top: 80%;
+  margin-left: 1rem;
+  font-style: normal;
+  font-size: medium;
+}
+
+
+
+.about-1{
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem;
+  max-width: 120rem;
+  margin: 2rem auto;
+  height: 24rem;
+  background-color: #f4f4f4;
+ }
+ .menu{
+  width: 30%;
+  padding: 0 3rem;
+ }
+ .about-1 #border{
+  border-right: 2px solid #cac7c7;
+ }
+ h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.about-1 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-1 li {
+  margin-bottom: 0.8rem;
+}
+
+.about-1 ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+  margin-top: 1rem;
+  position: relative;
+  font-weight: 500;
+}
+.about-1 ul li a::after {
+  content: '›'; 
+  font-size: 1rem;
+  color: #333; 
+  margin-left: 5px; 
+  text-decoration: none;
+}
+.about-1 ul li a:hover::after {
+  text-decoration: none;
+}
+.about-1 ul li a:hover {
+  text-decoration: underline;
+}
 
 .footer{
     background-color: rgb(245, 245, 245);
