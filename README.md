@@ -71,8 +71,11 @@ This project was created during **Geekathon**, an innovative event by Geekster. 
 
 ### 🧑‍💻 **Bikal Limbu**  
 - **About Marriott Bonvoy Page**  
-  - [GitHub Repository](#)  
-  - Screenshot: *(To be added after this section)*  
+  - [GitHub Repository](https://github.com/PriyaMaity/Jw-Marriot/tree/main/Project%20Marriott/Bikal-AboutMariotBonvoy)  
+  - Screenshot: ![alt text](<Project Marriott/Bikal-AboutMariotBonvoy/pics/Screenshot (202).png>)
+  ![alt text](<Project Marriott/Bikal-AboutMariotBonvoy/pics/Screenshot (203).png>)
+  
+  ![alt text](<Project Marriott/Bikal-AboutMariotBonvoy/pics/Screenshot (205).png>)
 
 ---
 
