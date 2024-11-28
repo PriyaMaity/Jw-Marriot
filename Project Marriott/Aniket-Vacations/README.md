@@ -58,10 +58,10 @@ The site offers:
 ## 📸 **Screenshots**  
 ### Homepage Hero Section  
 
-![hero section]("screenshots/Screenshot 2024-11-28 171925.png")
-![costal escape and mountain adventures]("screenshots/Screenshot 2024-11-28 171939.png")
-![iconic cities]("screenshots/Screenshot 2024-11-28 171953.png")
-![footer]("screenshots/Screenshot 2024-11-28 172005.png")
+![hero section] ("screenshots/Screenshot 2024-11-28 171925.png")
+![costal escape and mountain adventures] ("screenshots/Screenshot 2024-11-28 171939.png")
+![iconic cities] ("screenshots/Screenshot 2024-11-28 171953.png")
+![footer] ("screenshots/Screenshot 2024-11-28 172005.png")
 
 ---
 
