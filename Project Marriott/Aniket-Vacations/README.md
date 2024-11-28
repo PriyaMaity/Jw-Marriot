@@ -58,14 +58,13 @@ The site offers:
 ## 📸 **Screenshots**  
 ### Homepage Hero Section  
 
-![hero section] (<screenshots/Screenshot 2024-11-28 171925.png>)
-![costal escape and mountain adventures] (<screenshots/Screenshot 2024-11-28 171939.png>)
-![iconic cities] (<screenshots/Screenshot 2024-11-28 171953.png>)
-![footer] (<screenshots/Screenshot 2024-11-28 172005.png>)
-
+![alt text](<screenshots/Screenshot 2024-11-28 171925.png>)
+![alt text](<screenshots/Screenshot 2024-11-28 171939.png>)
+![alt text](<screenshots/Screenshot 2024-11-28 171953.png>)
+![alt text](<screenshots/Screenshot 2024-11-28 172005.png>)
 ---
 
 ## 💬 **Contact**  
 - 📧 Email: [aniketraikwar570@gmail.com](mailto:aniketraikwar570@gmail.com)  
 - github link:[aniket raikwar](https://github.com/aniketraikwar570)
-- linked in link: [aniket raikwar](https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit
+- linked in link: [aniket raikwar](https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit)

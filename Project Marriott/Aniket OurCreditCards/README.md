@@ -48,10 +48,9 @@ Welcome to the **Marriott Bonvoy Credit Cards Website** repository! This project
 ---
 
 ## 📸 **Screenshots**
-
-![credit card detaiks] ("![alt text](<screenshots/Screenshot 2024-11-28 171747.png>)")
-![country] (<screenshots/Screenshot 2024-11-28 171811.png>)
-![footer] (<screenshots/Screenshot 2024-11-28 171837.png>)
+![alt text](<screenshots/Screenshot 2024-11-28 171747.png>)
+![alt text](<screenshots/Screenshot 2024-11-28 171811.png>)
+ ![alt text](<screenshots/Screenshot 2024-11-28 171837.png>)
 
 ---
 
