@@ -1,7 +1,3 @@
-Here’s a **README.md** file for your project, formatted for GitHub and including icons for visual appeal:
-
----
-
 # 🏨 Marriott Bonvoy Credit Cards Website  
 
 Welcome to the **Marriott Bonvoy Credit Cards Website** repository! This project showcases the features, benefits, and offers of Marriott Bonvoy credit cards, including regional variations and exclusive perks.
