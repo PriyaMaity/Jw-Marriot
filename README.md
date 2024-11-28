@@ -39,14 +39,24 @@ This project was created during **Geekathon**, an innovative event by Geekster. 
 
 ### 🧑‍💻 **Pratik Yasare**  
 - **Meeting & Events Page**  
-  - [GitHub Repository](#)  
-  - Screenshot: *(To be added after this section)*  
+  - [GitHub Repository](https://github.com/PriyaMaity/Jw-Marriot/tree/main/Project%20Marriott/Pratik-MeetingsEvents)  
+  - Screenshot:
+  - ![Meeting & Events 1](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (142).png)
+  - ![Meeting & Events 2](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (143).png)
+  - ![Meeting & Events 3](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (144).png)
+  - ![Meeting & Events 4](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (145).png)
+  - ![Meeting & Events 5](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (146).png)
+  - ![Meeting & Events 6](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (147).png)
 - **Sign In or Join Page**  
-  - [GitHub Repository](#)  
-  - Screenshot: *(To be added after this section)*  
+  - [GitHub Repository](https://github.com/PriyaMaity/Jw-Marriot/tree/main/Project%20Marriott/Pratik-SignIn%20Or%20Join)  
+  - Screenshot:
+  - ![SignIn Or Join 1](Project Marriott/Pratik-SignIn Or Join/Readme/Screenshot (148).png)
+  - ![SignIn Or Join 2](Project Marriott/Pratik-SignIn Or Join/Readme/Screenshot (149).png)
+  - ![SignIn Or Join 3](Project Marriott/Pratik-SignIn Or Join/Readme/Screenshot (150).png)
 - **My Trip Page**  
-  - [GitHub Repository](#)  
-  - Screenshot: *(To be added after this section)*  
+  - [GitHub Repository](https://github.com/PriyaMaity/Jw-Marriot/tree/main/Project%20Marriott/Pratik-MyTrips)  
+  - Screenshot:
+  - ![MyTrips](Project Marriott/Pratik-MyTrips/Readme/Screenshot (151).png)  
 
 ### 🧑‍💻 **Rohit Shaw**  
 - **Find Reserve Page**  
@@ -110,7 +120,12 @@ This project was created during **Geekathon**, an innovative event by Geekster. 
   ![Footer-1 Section](Home-section%20Images/Readme_HomePage/Footer-1.png)
   ![Footer-2 Section](Home-section%20Images/Readme_HomePage/Footer-2.png)
 - **Meeting & Events Page** by *Pratik Yasare*  
-  *(Add Screenshot Here)*  
+  ![Meeting & Events 1](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (142).png)
+  ![Meeting & Events 2](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (143).png)
+  ![Meeting & Events 3](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (144).png)
+  ![Meeting & Events 4](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (145).png)
+  ![Meeting & Events 5](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (146).png)
+  ![Meeting & Events 6](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (147).png)
 - **Find Reserve Page** by *Rohit Shaw*  
   ![Find and resever](/Project%20Marriott/Rohit-FindReserve/webpagePreview.png)
   ![Footer](/Project%20Marriott/Rohit-FindReserve/webpagePreview2.png) 
@@ -134,14 +149,14 @@ Special thanks to **Geekathon** for providing this wonderful opportunity to show
 
 ### 🧑‍💻 **Team Members**  
 - **Pratik Yasare**  
-  - 🌐 [GitHub Profile](#)  
-  - 🔗 [LinkedIn](#)  
+  - 🌐 [GitHub Profile](https://github.com/ENZ048)  
+  - 🔗 [LinkedIn](https://www.linkedin.com/in/pratik-yesare/)  
 - **Rohit Shaw**  
   - 🌐 [GitHub Profile](https://github.com/shawrohit3653)  
   - 🔗 [LinkedIn](https://www.linkedin.com/in/rohit-shaw-a5aaa41b6/)  
 - **Aniket Raikar**  
-  - 🌐 [GitHub Profile](#)[aniket raikwar](https://github.com/aniketraikwar570)
-  - 🔗 [LinkedIn](#)  [aniket raikwar](https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit)
+  - 🌐 [GitHub Profile](#)  
+  - 🔗 [LinkedIn](#)  
 - **Bikal Limbu**  
   - 🌐 [GitHub Profile](#)  
   - 🔗 [LinkedIn](#)  
