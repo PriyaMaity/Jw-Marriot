@@ -674,9 +674,14 @@
 
 .footer{
     background-color: rgb(245, 245, 245);
+<<<<<<< HEAD
     /* background-color: gray; */
     height: 40vh;
     width: 100%;
+=======
+    height: auto;
+    width: 100vw;
+>>>>>>> 5896c8e26b4f9d77377004d90a3338d818c6976e
   }
   .about-2{
     background-color: #1c1c1c;

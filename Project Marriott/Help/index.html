@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marriott Bonvoy Customer Service and Online Help</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Step 1: Header -->
+    <header>
+      <nav class="nav-head">
+        <ul class="top-sider">
+          <li>
+            <a href="#"
+              ><img src="Images/MB_Logo.png" alt="marriottBonvoyLogo"
+            /></a>
+          </li>
+          <li>
+            <a href="../Rohit-Find&Reserve/index.html">Find & Reserve</a>
+          </li>
+          <li><a href="#">Deals & Packages </a></li>
+          <li>
+            <a href="../Pratik-Meetings&Events/index.html">Meetings & Events</a>
+          </li>
+          <li><a href="../Priya-OurBrands/index.html">Our Brands</a></li>
+          <li>
+            <a href="../Aniket-OurCreditCards/index.html">Our Credit Cards</a>
+          </li>
+          <li>
+            <a href="../Bikal-AboutMariotBonvoy/index.html"
+              >About Marriott Bonvoy</a
+            >
+          </li>
+          <li><a href="./index.html">Help Home</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Step 2: Section -->
+    <section id="heroSection">
+      <!-- Part: 1 (Search) -->
+      <div class="help-key">
+        <h3 class="show">We're Here to Help</h3>
+        <div class="search-box">
+          <input
+            type="search"
+            class="typeSearch"
+            placeholder="Search for a Topic or Keyword..."
+          />
+          <div class="img-box">
+            <img src="Images/asset 9.svg" alt="SearchIcon" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Part: 2 (Features) -->
+      <div class="viewFeatures">
+        <h1 class="title">Click On Any Image to View Featured Topics</h1>
+        <div class="img-view">
+          <div class="featuresImg" id="img-1">
+            <h4 class="caption">Membership</h4>
+          </div>
+          <div class="featuresImg" id="img-2">
+            <h4 class="caption">Promos & Offers</h4>
+          </div>
+          <div class="featuresImg" id="img-3">
+            <h4 class="caption">Marriott News</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Part: 3 (Filter) -->
+      <div class="viewFilter">
+        <h1 class="title">Category Filters</h1>
+        <div class="img-icon">
+          <div class="filterImg" id="icon-1">
+            <h4 class="caption">Loyalty</h4>
+          </div>
+          <div class="filterImg" id="icon-2">
+            <h4 class="caption">Reservations</h4>
+          </div>
+          <div class="filterImg" id="icon-3">
+            <h4 class="caption">Customer Care</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Part: 4 (Trending) -->
+      <div class="trending">
+        <h3 class="title">What's Trending</h3>
+        <ul class="trendQ">
+          <li>What Will Happen to My Marriott Bonvoy® Elite Status?</li>
+          <li>How Do I Request Credit for a Completed Missing Stay?</li>
+          <li>How Do I Request Credit for a Completed Missing Stay?</li>
+          <li>How Do I Transfer Points To Another Member?</li>
+          <li>How Do I Change My Name on My Account?</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Step 3: Footer -->
+    <footer>
+      <div class="contact">
+        <h4 class="head">Follow Us</h4>
+        <ul class="socialIcon">
+          <li><i class="fa-brands fa-facebook"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+          <li><i class="fa-brands fa-facebook-messenger"></i></li>
+          <li><i class="fa-brands fa-youtube"></i></li>
+        </ul>
+      </div>
+      <div class="copyRTerms">
+        <div class="copyR">
+          Copyright © 1996 - 2024
+          <i class="fa-solid fa-basketball"></i> Marriott International, Inc.
+          All rights reserved. Marriott Proprietary Information
+        </div>
+        <div class="terms">
+          <ul>
+            <li>Terms of Use <i class="fa-solid fa-angle-right"></i></li>
+            <li class="lis">
+              Program Terms & Conditions <i class="fa-solid fa-angle-right"></i>
+            </li>
+            <li class="lis">
+              Privacy Center <i class="fa-solid fa-angle-right"></i>
+            </li>
+            <li class="lis">Do Not Sell My Personal Information</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    const hovEff = document.querySelectorAll(".featuresImg");
+
+    hovEff.forEach((element) => {
+      element.addEventListener("mouseenter", () => {
+        element.classList.add("hover-bg");
+      });
+
+      element.addEventListener("mouseleave", () => {
+        element.classList.remove("hover-bg");
+      });
+    });
+  </script>
+</html>

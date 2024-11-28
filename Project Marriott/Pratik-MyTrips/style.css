@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./home.png);
+  background-size: cover;
+  background-position: center;
+  filter: brightness(50%);
+  z-index: -1; /* Keeps the background behind the content */
+}
+
+.my-trips {
+  width: 70%;
+  height: 70vh;
+  position: absolute;
+  background-color: white;
+  top: 11%;
+  left: 15%;
+  border-radius: 10px;
+  display: flex;
+}
+
+.cross-button{
+    position: absolute;
+    top:4%;
+    right: 2%;
+}
+
+.cross-button a{
+    color: black;
+}
+
+.cross-button:hover{
+    transform: scale(1.2);
+}
+
+.lookup-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 4rem 3rem;
+  border-right: 1px solid black;
+  padding-right: 4rem;
+  height: 70%;
+  width: 50%;
+  flex-shrink: 1;
+}
+
+.lookup-section span {
+  font-size: 2rem;
+  letter-spacing: 0.1ch;
+}
+
+.lookup-section p {
+  font-size: 0.8rem;
+}
+
+.input-wrapper {
+  position: relative;
+  /* margin: 0.8rem 0; */
+}
+
+input:not(#remember) {
+  border: 1px solid rgb(133, 132, 132);
+  border-radius: 5px;
+  position: relative;
+  width: 100%;
+  min-width: 20rem;
+  height: 3em;
+  margin: 10px 0;
+  line-height: 6ex;
+  padding-left: 1rem;
+  font-size: 1em;
+}
+
+label:not(.check-label) {
+  position: absolute;
+  top: 0.2ex;
+  z-index: 1;
+  left: 2em;
+  padding: 0 5px;
+  background-color: white;
+  font-size: 0.8rem;
+}
+
+.date{
+    padding: 1rem;
+    color: #707070;
+}
+
+button{
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  border-radius: 24px;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  font-style: bold;
+  margin-right: 2rem;
+  transition: all ease-in-out 0.2s;
+}
+
+button:hover {
+    background-color: #666;
+    border: 2px solid #666;
+    transform: scale(1.1);
+  }
+
+.signin-section {
+  width: 40%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 6rem 0;
+  flex-shrink: 1;
+}
+
+.signin-section span{
+    font-size: 1.5rem;
+}
+
+
+input[type="checkbox"] {
+  width: 2rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  accent-color: black;
+}
+
+.check-label {
+  font-size: 1rem;
+  font-style: bold;
+  cursor: pointer;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.links a{
+    color: rgb(56, 55, 55);
+    font-size: 0.8rem;
+    margin: 0.3rem 0;
+    transition: all ease-in-out 0.2s;
+    text-decoration: none;
+}
+
+.links a:hover{
+   color: black;
+   text-decoration: underline;
+}
+
+.links span{
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .my-trips{
+        flex-direction: column;
+        height: 100vh;
+    }
+}
