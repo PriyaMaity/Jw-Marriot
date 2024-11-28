@@ -50,11 +50,16 @@ This project was created during **Geekathon**, an innovative event by Geekster. 
 
 ### 🧑‍💻 **Rohit Shaw**  
 - **Find Reserve Page**  
-  - [GitHub Repository](#)  
-  - Screenshot: *(To be added after this section)*  
+  - [GitHub Repository](https://github.com/PriyaMaity/Jw-Marriot/tree/main/Project%20Marriott/Rohit-FindReserve)  
+  - Screenshot: ![alt text](/Project%20Marriott/Rohit-FindReserve/webpagePreview.png)
+  ![alt text](/Project%20Marriott/Rohit-FindReserve/webpagePreview2.png)
 - **Special Offers Page**  
-  - [GitHub Repository](#)  
-  - Screenshot: *(To be added after this section)*  
+  - [GitHub Repository](https://github.com/PriyaMaity/Jw-Marriot/tree/main/Project%20Marriott/Rohit-SpecialOffers)  
+  - Screenshot: ![Hero Section](![alt text](/Project%20Marriott/Rohit-SpecialOffers/heroSection.png))
+  ![Member Exclusive Offers](![alt text](/Project%20Marriott/Rohit-SpecialOffers/memberExclusive.png))
+  ![Popular Offers](![alt text](/Project%20Marriott/Rohit-SpecialOffers/popular.png))
+  ![Explore the World](![alt text](/Project%20Marriott/Rohit-SpecialOffers/exploreTheWorld.png))
+
 
 ### 🧑‍💻 **Aniket Raikar**  
 - **Our Credit Cards Page**  
