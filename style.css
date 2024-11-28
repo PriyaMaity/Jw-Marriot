@@ -7,6 +7,7 @@ body{
   overflow-x: hidden;
   font-family: "Swiss", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #efeded;
+  /* background-color: lightcoral; */
 }
 .header-black{
   z-index: 100;
@@ -59,6 +60,15 @@ body{
   padding-left: 4rem;
   
 }
+.right-navbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+  width: 78vw;
+  height: 16.7vh;
+}
 .navbar .right-navbar-top{
   display: flex;
   justify-content: flex-end;
@@ -67,10 +77,9 @@ body{
   margin-left: 34rem; */
   align-items: center;
   font-size: 1.13vw;
-  top: 1rem;
-  right: 1rem;
+  
   width: 70vw;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .navbar .right-navbar-bottom{
@@ -85,7 +94,7 @@ body{
   align-items: center;
   font-size: 1.08vw;
   font-weight: 600;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
 }
 .navbar .right-navbar-bottom a, .right-navbar-top a{
   text-decoration: none;
@@ -1257,17 +1266,22 @@ input::placeholder {
   }
 
   /* Hide navbar content by default */
-  .right-navbar .icons span {
+  .right-navbar-top .icons span {
     display: none;
+    width: 0;
   }
   .right-navbar .icons{
     padding-left: -2rem;
   }
+  .right-navbar {
+    background-color: palevioletred;
+    /* width: 40vw; */
+  }
   .right-navbar .icons i{
-    font-size: 1rem;
-    gap: 0.2rem;
+    /* gap: 0.2rem; */
     font-size: 1.5vw;
     justify-content: center;
+    background-color: lightblue;
   }
   .right-navbar-bottom a{
     display: none;
@@ -1780,7 +1794,7 @@ input::placeholder {
   }
   
   .search-container{
-    margin-left: 4.5rem;
+    margin-left: 13rem;
     margin-top: -50rem;
     width: 24rem;
   }
@@ -1817,14 +1831,17 @@ input::placeholder {
   .hotel-deals{
     width: 70vw;
     margin-top: 12rem;
-    margin-left: 5rem;
+    margin-left: 7rem;
     margin-bottom: -25rem;
   }
   .hotel-deals-images{
     flex-wrap: wrap;
     gap: 2rem;
+    margin-left: 6rem;
   }
-  
+  .hotel-deals .view-more{
+    display: none;
+  }
   .arrow-button{
     margin-top: -2rem;
   margin-left: 10rem;
@@ -2067,6 +2084,55 @@ input::placeholder {
     }
   }
   @media (max-width: 320px){
+    .rent{
+      width: 120vw;
+      margin-left: 5rem;
+    }
+    .rent-images{
+      width: 110vw;
+    }
+    .rent-img img{
+      width: 140vw;
+    }
+    .rent-info-1{
+      width: 140vw;
+    }
+    .app{
+      width: 140vw;
+      margin-left: 5rem;
+      height: 90vh;
+      margin-top: -15rem;
+    }
+    .app .app-img{
+      height: auto;
+    }
+    .app .app-img img{
+      width: 60vw;
+      height: 30vh;
+      margin-left: -6rem;
+      border-radius: 1.5rem;
+    }
+    .app .app-scan img{
+      width: 60vw;
+      height: 30vh;
+
+    }
+    .career{
+      width: 90vw;
+      margin-left: 6rem;
+    }
+    .app-img img{
+      width: 70vw;
+    }
+    .food-img{
+      width: 100vw;
+    }
+    .food-img-info{
+      width: 90vw;
+    }
+    .food-img img{
+      width: 90vw;
+    }
     .home-section{
       width: 200vw;
     }
@@ -2124,6 +2190,11 @@ input::placeholder {
     }
     .right-navbar .icons{
       align-items: center;
+    }
+    .footer{
+      width: auto;
+      background-color: lightblue;
+      border-radius: 2rem;
     }
     .search-details input{
       font-size: 0.8rem;
