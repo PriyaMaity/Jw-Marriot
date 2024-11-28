@@ -674,14 +674,11 @@
 
 .footer{
     background-color: rgb(245, 245, 245);
-<<<<<<< HEAD
     /* background-color: gray; */
     height: 40vh;
     width: 100%;
-=======
     height: auto;
     width: 100vw;
->>>>>>> 5896c8e26b4f9d77377004d90a3338d818c6976e
   }
   .about-2{
     background-color: #1c1c1c;
@@ -738,7 +735,159 @@
   display: none;
 }
 
-#check{
-  display: none;
+
+.menu-toggle {
+  display: none; 
+  flex-direction: column;
+  cursor: pointer;
+   gap: 5px;
 }
+.hamburger-menu {
+  display: none; 
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+
+@media (max-width: 1044px){
+  
+   /* Show Hamburger Menu */
+   .hamburger-menu {
+    display: inline;
+    position: absolute;
+    padding-top: 0.7rem;
+    padding-left: 2rem;
+    margin: auto;
+    /* z-index: 1; */
+    height: 10vh;
+  }
+  .navbar .left-navbar img{
+    margin-left: 2rem;
+    height: 7rem;
+    width: 13rem;
+    padding-left: 3rem;
+    
+  }
+  .navbar{
+    height: 10vh;
+  }
+
+  /* Hide navbar content by default */
+  .right-navbar .icons span {
+    display: none;
+  }
+  .right-navbar .icons{
+    padding-left: -2rem;
+  }
+  .right-navbar .icons i{
+    font-size: 1rem;
+    gap: 0.2rem;
+    font-size: 1.5vw;
+  }
+  .right-navbar-bottom a{
+    display: none;
+  }
+  input{
+    width: 15rem;
+    
+  }
+ 
+}
+
+
+@media (max-width: 1024px){
+  
+  
+   .menu{
+    padding: 0 1.5rem;
+   }
+
+   .about-1{
+    padding: 1.2rem;
+    margin: 2.8rem auto;
+    gap: 0.5rem;
+   }
+   
+   .about-1 #border{
+    border-right: 2px solid #cac7c7;
+   }
+   h3 {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+  }
+  .about-1 li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-1 ul li a {
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+    position: relative;
+    font-weight: 500;
+  }
+  
+   
+}
+
+
+
+
+
+
+
+@media (max-width: 840px){
+  .right-navbar .icons{
+    margin-right: 4rem;
+    padding-right: -2rem;
+    width: 10vw;
+  }
+  .right-navbar .icons i{
+    font-size: 1rem;
+    gap: 0.1rem;
+    font-size: 1.7vw;
+  }
+
+  
+}
+
+
+@media (max-width: 775px){
+  
+  .right-navbar .icons{
+    padding-left: -8rem;
+  }
+  
+}
+
+
+@media (max-width: 785px){
+
+  
+  
+
+  .right-navbar{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+ 
+ 
+}
+
+
+
+@media (max-width: 519px){
+  .right-navbar .icons i{
+    font-size: 1rem;
+    gap: 0.1rem;
+    font-size: 1.9vw;
+  }
+ 
+
+
+}
+
+
+
+
 
