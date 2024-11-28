@@ -141,8 +141,8 @@ Special thanks to **Geekathon** for providing this wonderful opportunity to show
   - 🌐 [GitHub Profile](https://github.com/shawrohit3653)  
   - 🔗 [LinkedIn](https://www.linkedin.com/in/rohit-shaw-a5aaa41b6/)  
 - **Aniket Raikar**  
-  - 🌐 [GitHub Profile](#)  
-  - 🔗 [LinkedIn](#)  
+  - 🌐 [GitHub Profile](#)[aniket raikwar](https://github.com/aniketraikwar570)
+  - 🔗 [LinkedIn](#)  [aniket raikwar](https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit)
 - **Bikal Limbu**  
   - 🌐 [GitHub Profile](https://github.com/Bikalbi)  
   - 🔗 [LinkedIn](https://www.linkedin.com/in/bikal-limbu-930545204/)  
