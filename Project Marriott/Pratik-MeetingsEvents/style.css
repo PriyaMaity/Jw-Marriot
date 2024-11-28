@@ -264,19 +264,6 @@ button:hover {
   border: none;
   transform: scale(1.05);
 }
-
-@media (max-width: 1000px) {
-  .search-section{
-    height: auto;
-  }
-
-  .search-below-section{
-    display: none;
-  }
-
-}
-
-
 .explore-text {
   text-align: center;
 }
@@ -329,8 +316,6 @@ button:hover {
 
 .social-card{
   width: 40%;
-  min-width: 240px;
-  min-height: 400px;
   margin: 0 1.5rem;
   overflow: hidden;
   border-radius: 16px;
@@ -730,3 +715,92 @@ button:hover {
   color: whitesmoke;
 }
 
+@media (max-width: 1000px) {
+  .search-section{
+    height: auto;
+  }
+
+  .search-below-section{
+    display: none;
+  }
+
+  .plan-section{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+  }
+
+  .plan-section img{
+    width: 500px;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 16px;
+  }
+  
+  .plan-section .text{
+    margin: 0;
+  }
+
+}
+
+@media (max-width: 768px){
+  .social-cards-container{
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .social-card{
+    margin: 1rem 0;
+    min-width: 600px;
+    min-height: 800px;
+  }
+
+  .social-card p{
+    font-size: 2rem;
+  }
+
+  .plan-section{
+    width: 100vw;
+    margin-left: 8rem;
+  }
+
+  .last-cards-container{
+    flex-wrap: wrap;
+    height: auto;
+    font-size: 2rem;
+  }
+
+  .last-card{
+    min-width: 800px;
+    min-height: 600px;
+    margin: 2rem 0;
+  }
+
+  .last-card-text-wrapper p{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .last-card-text-wrapper{
+    margin-top: 30rem;
+    margin-left: 2rem;
+    color: white;
+    cursor: pointer;
+  }
+
+  .connect-section{
+    flex-wrap: wrap;
+    height: auto;
+    margin-left: 10rem;
+  }
+
+  .card-container{
+    flex-wrap: wrap;
+  }
+
+  .connect-card h3{
+    font-size: 0.8rem;
+  }
+
+}

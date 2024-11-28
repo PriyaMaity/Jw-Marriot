@@ -315,3 +315,32 @@ button:hover {
   padding: 1.3rem;
   color: whitesmoke;
 }
+
+@media (max-width: 768px){
+  .join-section{
+    height: 150vh;
+    width: 110vw;
+  }
+
+  .logo-container{
+    flex-direction: column;
+    gap: 2rem;;
+    border: none;
+  }
+
+  .activate-account{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .input-container{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+  }
+
+  input{
+    width: 20%;
+  }
+}
