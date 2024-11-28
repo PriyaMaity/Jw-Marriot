@@ -177,8 +177,13 @@ body{
 @media (max-width: 768px) {
   /* Show Hamburger Menu */
   .hamburger-menu {
-    display: block;
+    display: inline;
+    position: absolute;
+    padding-top: 2rem;
+    padding-left: 2rem;
     margin: auto;
+    /* z-index: 1; */
+    height: 10vh;
   }
 
   /* Hide navbar content by default */
