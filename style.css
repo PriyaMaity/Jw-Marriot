@@ -1267,6 +1267,7 @@ input::placeholder {
     font-size: 1rem;
     gap: 0.2rem;
     font-size: 1.5vw;
+    justify-content: center;
   }
   .right-navbar-bottom a{
     display: none;
@@ -2066,6 +2067,64 @@ input::placeholder {
     }
   }
   @media (max-width: 320px){
+    .home-section{
+      width: 200vw;
+    }
+    .card-section{
+      width: 100vw;
+    }
+    .hotel-deals{
+      width: 140vw;
+      margin-top: -63rem;
+    }
+    .hotel-deals-images{
+      flex-wrap: wrap;
+      width: 90vw;
+      gap: 2rem;
+    }
+    .hotel-deals-images img{
+      width: 100vw;
+    }
+    .image-info{
+      width: 98vw;
+    }
+    .winter-way{
+      width: 100vw;
+    }
+    .winter-way-images img{
+      width: 120vw;
+    }
+    .w-w-info{
+      width: 20rem;
+    }
+    .exp{
+      width: 150vw;
+    }
+    .exp-images{
+      width: 100vw;
+    }
+    .exp-img img{
+      width: 98vw;
+    }
+    .exp-info{
+      width: 98vw;
+    }
+    .food{
+      width: 200vw;
+    }
+    .join-signin{
+      width: 32rem;
+      margin-left: 5rem;
+    }
+    .join .joinin-buttons .bt-1, .join .joinin-buttons .bt-2{
+      width: 23rem;
+    }
+    .search-container{
+      display: none;
+    }
+    .right-navbar .icons{
+      align-items: center;
+    }
     .search-details input{
       font-size: 0.8rem;
       width: 7rem;
