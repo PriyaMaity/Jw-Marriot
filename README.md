@@ -59,7 +59,7 @@ This project was created during **Geekathon**, an innovative event by Geekster. 
   ![alt text](/Project%20Marriott/Rohit-SpecialOffers/memberExclusive.png)
   ![alt text](/Project%20Marriott/Rohit-SpecialOffers/popular.png)
   ![alt text](/Project%20Marriott/Rohit-SpecialOffers/exploreTheWorld.png)
-
+  ![alt text](/Project%20Marriott/Rohit-SpecialOffers/specialfooter.png)
 
 ### 🧑‍💻 **Aniket Raikar**  
 - **Our Credit Cards Page**  

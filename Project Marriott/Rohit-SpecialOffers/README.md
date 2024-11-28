@@ -41,6 +41,7 @@ Project Directory
 
 ### Explore the World
 ![Explore the World](![alt text](exploreTheWorld.png))
+![alt text](specialfooter.png)
 
 ## 🧰 Setup Instructions
 
