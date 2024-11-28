@@ -1,5 +1,3 @@
-
-
 # Marriott Bonvoy Special Offers Webpage
 
 A responsive website showcasing special offers, member-exclusive deals, and travel benefits for Marriott Bonvoy members. This project aims to provide a user-friendly platform for users to explore and access various Marriott Bonvoy promotions and offers.
@@ -48,7 +46,7 @@ Project Directory
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/marriott-bonvoy-offers.git
+   git clone https://github.com/PriyaMaity/Jw-Marriot.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -59,33 +57,6 @@ Project Directory
    open index.html
    ```
 
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to contribute:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add new feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Create a pull request.
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## 💬 Feedback
 
 If you have any feedback or suggestions, please feel free to reach out or open an issue in this repository.
-
----
-
-Let me know if you'd like further modifications or assistance!
