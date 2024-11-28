@@ -112,7 +112,8 @@ This project was created during **Geekathon**, an innovative event by Geekster. 
 - **Our Credit Cards Page** by *Aniket Raikar*  
   *(Add Screenshot Here)*  
 - **About Marriott Bonvoy Page** by *Bikal Limbu*  
-  *(Add Screenshot Here)*  
+  ![Screenshot of Home Page](pics/Screenshot%20(202).png)
+  ![Screenshot of Membership Benefits Section](pics/Screenshot%20(203).png)
 
 ---
 
@@ -138,7 +139,7 @@ Special thanks to **Geekathon** for providing this wonderful opportunity to show
   - 🌐 [GitHub Profile](#)  
   - 🔗 [LinkedIn](#)  
 - **Bikal Limbu**  
-  - 🌐 [GitHub Profile](#)  
-  - 🔗 [LinkedIn](#)  
+  - 🌐 [GitHub Profile](https://github.com/Bikalbi)  
+  - 🔗 [LinkedIn](https://www.linkedin.com/in/bikal-limbu-930545204/)  
 
 ---
