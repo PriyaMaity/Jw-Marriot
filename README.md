@@ -104,7 +104,8 @@ This project was created during **Geekathon**, an innovative event by Geekster. 
 - **Meeting & Events Page** by *Pratik Yasare*  
   *(Add Screenshot Here)*  
 - **Find Reserve Page** by *Rohit Shaw*  
-  *(Add Screenshot Here)*  
+  ![Find and resever](/Project%20Marriott/Rohit-FindReserve/webpagePreview.png)
+  ![Footer](/Project%20Marriott/Rohit-FindReserve/webpagePreview2.png) 
 - **Our Credit Cards Page** by *Aniket Raikar*  
   *(Add Screenshot Here)*  
 - **About Marriott Bonvoy Page** by *Bikal Limbu*  
@@ -128,8 +129,8 @@ Special thanks to **Geekathon** for providing this wonderful opportunity to show
   - 🌐 [GitHub Profile](#)  
   - 🔗 [LinkedIn](#)  
 - **Rohit Shaw**  
-  - 🌐 [GitHub Profile](#)  
-  - 🔗 [LinkedIn](#)  
+  - 🌐 [GitHub Profile](https://github.com/shawrohit3653)  
+  - 🔗 [LinkedIn](https://www.linkedin.com/in/rohit-shaw-a5aaa41b6/)  
 - **Aniket Raikar**  
   - 🌐 [GitHub Profile](#)  
   - 🔗 [LinkedIn](#)  
