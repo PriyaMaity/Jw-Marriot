@@ -41,22 +41,22 @@ This project was created during **Geekathon**, an innovative event by Geekster. 
 - **Meeting & Events Page**  
   - [GitHub Repository](https://github.com/PriyaMaity/Jw-Marriot/tree/main/Project%20Marriott/Pratik-MeetingsEvents)  
   - Screenshot:
-  - ![Meeting & Events 1](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (142).png)
-  - ![Meeting & Events 2](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (143).png)
-  - ![Meeting & Events 3](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (144).png)
-  - ![Meeting & Events 4](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (145).png)
-  - ![Meeting & Events 5](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (146).png)
-  - ![Meeting & Events 6](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (147).png)
+  - ![Meeting & Events 1](Project%20Marriott/Pratik-MeetingsEvents/Readme/Screenshot%20(142).png)
+  - ![Meeting & Events 2](Project%20Marriott/Pratik-MeetingsEvents/Readme/Screenshot%20(143).png)
+  - ![Meeting & Events 3](Project%20Marriott/Pratik-MeetingsEvents/Readme/Screenshot%20(144).png)
+  - ![Meeting & Events 4](Project%20Marriott/Pratik-MeetingsEvents/Readme/Screenshot%20(145).png)
+  - ![Meeting & Events 5](Project%20Marriott/Pratik-MeetingsEvents/Readme/Screenshot%20(146).png)
+  - ![Meeting & Events 6](Project%20Marriott/Pratik-MeetingsEvents/Readme/Screenshot%20(147).png)
 - **Sign In or Join Page**  
   - [GitHub Repository](https://github.com/PriyaMaity/Jw-Marriot/tree/main/Project%20Marriott/Pratik-SignIn%20Or%20Join)  
   - Screenshot:
-  - ![SignIn Or Join 1](Project Marriott/Pratik-SignIn Or Join/Readme/Screenshot (148).png)
-  - ![SignIn Or Join 2](Project Marriott/Pratik-SignIn Or Join/Readme/Screenshot (149).png)
-  - ![SignIn Or Join 3](Project Marriott/Pratik-SignIn Or Join/Readme/Screenshot (150).png)
+  - ![SignIn Or Join 1](Project%20Marriott/Pratik-SignIn%20Or%20Join/Readme/Screenshot%20(148).png)
+  - ![SignIn Or Join 2](Project%20Marriott/Pratik-SignIn%20Or%20Join/Readme/Screenshot%20(149).png)
+  - ![SignIn Or Join 3](Project%20Marriott/Pratik-SignIn%20Or%20Join/Readme/Screenshot%20(150).png)
 - **My Trip Page**  
   - [GitHub Repository](https://github.com/PriyaMaity/Jw-Marriot/tree/main/Project%20Marriott/Pratik-MyTrips)  
   - Screenshot:
-  - ![MyTrips](Project Marriott/Pratik-MyTrips/Readme/Screenshot (151).png)  
+  - ![MyTrips](Project%20Marriott/Pratik-MyTrips/Readme/Screenshot%20(151).png)  
 
 ### 🧑‍💻 **Rohit Shaw**  
 - **Find Reserve Page**  
@@ -120,12 +120,12 @@ This project was created during **Geekathon**, an innovative event by Geekster. 
   ![Footer-1 Section](Home-section%20Images/Readme_HomePage/Footer-1.png)
   ![Footer-2 Section](Home-section%20Images/Readme_HomePage/Footer-2.png)
 - **Meeting & Events Page** by *Pratik Yasare*  
-  ![Meeting & Events 1](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (142).png)
-  ![Meeting & Events 2](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (143).png)
-  ![Meeting & Events 3](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (144).png)
-  ![Meeting & Events 4](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (145).png)
-  ![Meeting & Events 5](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (146).png)
-  ![Meeting & Events 6](Project Marriott/Pratik-MeetingsEvents/Readme/Screenshot (147).png)
+  ![Meeting & Events 1](Project%20Marriott/Pratik-MeetingsEvents/Readme/Screenshot%20(142).png)
+  ![Meeting & Events 2](Project%20Marriott/Pratik-MeetingsEvents/Readme/Screenshot%20(143).png)
+  ![Meeting & Events 3](Project%20Marriott/Pratik-MeetingsEvents/Readme/Screenshot%20(144).png)
+  ![Meeting & Events 4](Project%20Marriott/Pratik-MeetingsEvents/Readme/Screenshot%20(145).png)
+  ![Meeting & Events 5](Project%20Marriott/Pratik-MeetingsEvents/Readme/Screenshot%20(146).png)
+  ![Meeting & Events 6](Project%20Marriott/Pratik-MeetingsEvents/Readme/Screenshot%20(147).png)
 - **Find Reserve Page** by *Rohit Shaw*  
   ![Find and resever](/Project%20Marriott/Rohit-FindReserve/webpagePreview.png)
   ![Footer](/Project%20Marriott/Rohit-FindReserve/webpagePreview2.png) 
