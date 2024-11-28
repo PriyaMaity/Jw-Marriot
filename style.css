@@ -1274,7 +1274,7 @@ input::placeholder {
     padding-left: -2rem;
   }
   .right-navbar {
-    background-color: palevioletred;
+    /* background-color: palevioletred; */
     /* width: 40vw; */
   }
   .right-navbar .icons i{
