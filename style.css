@@ -1281,7 +1281,7 @@ input::placeholder {
     /* gap: 0.2rem; */
     font-size: 1.5vw;
     justify-content: center;
-    background-color: lightblue;
+    /* background-color: lightblue; */
   }
   .right-navbar-bottom a{
     display: none;
