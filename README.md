@@ -55,19 +55,24 @@ This project was created during **Geekathon**, an innovative event by Geekster. 
   ![alt text](/Project%20Marriott/Rohit-FindReserve/webpagePreview2.png)
 - **Special Offers Page**  
   - [GitHub Repository](https://github.com/PriyaMaity/Jw-Marriot/tree/main/Project%20Marriott/Rohit-SpecialOffers)  
-  - Screenshot: ![Hero Section](![alt text](/Project%20Marriott/Rohit-SpecialOffers/heroSection.png))
-  ![Member Exclusive Offers](![alt text](/Project%20Marriott/Rohit-SpecialOffers/memberExclusive.png))
-  ![Popular Offers](![alt text](/Project%20Marriott/Rohit-SpecialOffers/popular.png))
-  ![Explore the World](![alt text](/Project%20Marriott/Rohit-SpecialOffers/exploreTheWorld.png))
-
+  ![alt text](/Project%20Marriott/Rohit-SpecialOffers/heroSection.png)
+  ![alt text](/Project%20Marriott/Rohit-SpecialOffers/memberExclusive.png)
+  ![alt text](/Project%20Marriott/Rohit-SpecialOffers/popular.png)
+  ![alt text](/Project%20Marriott/Rohit-SpecialOffers/exploreTheWorld.png)
+  ![alt text](/Project%20Marriott/Rohit-SpecialOffers/specialfooter.png)
 
 ### 🧑‍💻 **Aniket Raikar**  
 - **Our Credit Cards Page**  
   - [GitHub Repository](#)  
-  - Screenshot: *(To be added after this section)*  
+  ![alt text](<Project Marriott/Aniket OurCreditCards/screenshots/Screenshot 2024-11-28 171747.png>)
+  ![alt text](<Project Marriott/Aniket OurCreditCards/screenshots/Screenshot 2024-11-28 171811.png>)
+  ![alt text](<Project Marriott/Aniket OurCreditCards/screenshots/Screenshot 2024-11-28 171837.png>)
 - **Vacation Page**  
   - [GitHub Repository](#)  
-  - Screenshot: *(To be added after this section)*  
+    ![alt text](<Project Marriott/Aniket-Vacations/screenshots/Screenshot 2024-11-28 171925.png>)
+    ![alt text](<Project Marriott/Aniket-Vacations/screenshots/Screenshot 2024-11-28 171939.png>)
+    ![alt text](<Project Marriott/Aniket-Vacations/screenshots/Screenshot 2024-11-28 171953.png>)
+    ![alt text](<Project Marriott/Aniket-Vacations/screenshots/Screenshot 2024-11-28 172005.png>)
 
 ### 🧑‍💻 **Bikal Limbu**  
 - **About Marriott Bonvoy Page**  
