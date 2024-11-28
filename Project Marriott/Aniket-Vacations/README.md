@@ -1,4 +1,4 @@
-Here’s a **README.md** file tailored for your project with icons to enhance visual appeal:
+
 # 🌍 Marriott Bonvoy Vacations  
 Welcome to the **Marriott Bonvoy Vacations Website** repository! This project is a modern, responsive website designed to showcase destinations, exclusive deals, and experiences under the Marriott Bonvoy brand.
 

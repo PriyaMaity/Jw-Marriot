@@ -55,11 +55,11 @@ This project was created during **Geekathon**, an innovative event by Geekster. 
   ![alt text](/Project%20Marriott/Rohit-FindReserve/webpagePreview2.png)
 - **Special Offers Page**  
   - [GitHub Repository](https://github.com/PriyaMaity/Jw-Marriot/tree/main/Project%20Marriott/Rohit-SpecialOffers)  
-  - Screenshot: ![Hero Section](![alt text](/Project%20Marriott/Rohit-SpecialOffers/heroSection.png))
-  ![Member Exclusive Offers](![alt text](/Project%20Marriott/Rohit-SpecialOffers/memberExclusive.png))
-  ![Popular Offers](![alt text](/Project%20Marriott/Rohit-SpecialOffers/popular.png))
-  ![Explore the World](![alt text](/Project%20Marriott/Rohit-SpecialOffers/exploreTheWorld.png))
-
+  ![alt text](/Project%20Marriott/Rohit-SpecialOffers/heroSection.png)
+  ![alt text](/Project%20Marriott/Rohit-SpecialOffers/memberExclusive.png)
+  ![alt text](/Project%20Marriott/Rohit-SpecialOffers/popular.png)
+  ![alt text](/Project%20Marriott/Rohit-SpecialOffers/exploreTheWorld.png)
+  ![alt text](/Project%20Marriott/Rohit-SpecialOffers/specialfooter.png)
 
 ### 🧑‍💻 **Aniket Raikar**  
 - **Our Credit Cards Page**  
@@ -112,7 +112,8 @@ This project was created during **Geekathon**, an innovative event by Geekster. 
 - **Meeting & Events Page** by *Pratik Yasare*  
   *(Add Screenshot Here)*  
 - **Find Reserve Page** by *Rohit Shaw*  
-  *(Add Screenshot Here)*  
+  ![Find and resever](/Project%20Marriott/Rohit-FindReserve/webpagePreview.png)
+  ![Footer](/Project%20Marriott/Rohit-FindReserve/webpagePreview2.png) 
 - **Our Credit Cards Page** by *Aniket Raikar*  
   *(Add Screenshot Here)*  
 - **About Marriott Bonvoy Page** by *Bikal Limbu*  
@@ -136,8 +137,8 @@ Special thanks to **Geekathon** for providing this wonderful opportunity to show
   - 🌐 [GitHub Profile](#)  
   - 🔗 [LinkedIn](#)  
 - **Rohit Shaw**  
-  - 🌐 [GitHub Profile](#)  
-  - 🔗 [LinkedIn](#)  
+  - 🌐 [GitHub Profile](https://github.com/shawrohit3653)  
+  - 🔗 [LinkedIn](https://www.linkedin.com/in/rohit-shaw-a5aaa41b6/)  
 - **Aniket Raikar**  
   - 🌐 [GitHub Profile](#)  
   - 🔗 [LinkedIn](#)  
